@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FunkySqlite_Example' do
+  pod 'FunkySqlite', :path => '../'
+
+  target 'FunkySqlite_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
