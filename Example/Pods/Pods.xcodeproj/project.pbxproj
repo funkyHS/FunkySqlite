@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		157543693A916C420D1CBE7FCEC403D4 /* HSModelProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 13638A71FD08EF1C10FA6DB62E5882CB /* HSModelProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3797AAE21F271BC000B8FA09 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3797AAE11F271BC000B8FA09 /* libsqlite3.0.tbd */; };
+		3D9F03E576F1CC63E669FA76D88C166D /* HSSqliteTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8190E7AAAF1B8E99469715043EB7A2CE /* HSSqliteTool.m */; };
+		45C30F301BDD2C7A9FCDEC9B1B957A0D /* FunkySqlite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA88C3643444DAF963F82D0656946BD /* FunkySqlite-dummy.m */; };
+		4CB610D58B2BBA693A49FCAEE47E94B1 /* HSModelTool.h in Headers */ = {isa = PBXBuildFile; fileRef = D74D8FF209FF699CD70105013D65CE41 /* HSModelTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		574DA6F759D2BCC61450DA9715FB3CD8 /* Pods-FunkySqlite_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA38945FB28CA34D0CBE0E89A9FBF13 /* Pods-FunkySqlite_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DEBD72684BCFED2B6BBD3A066197719 /* Pods-FunkySqlite_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EDF6AE0680F9A8ACFDDBD4FAEF59659 /* Pods-FunkySqlite_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72916F1D3B38D4AF3E6645B4A963A229 /* HSSqliteTool.h in Headers */ = {isa = PBXBuildFile; fileRef = C9CA313FC5B68944DC71BC4E8FA0BD43 /* HSSqliteTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EF1E26BF67A2D48D1E1ABE4ABF3DB38 /* HSSqliteModelTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EDCDCC4A8F6E46D04371EED858907C /* HSSqliteModelTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82C29D20F9EDDE65F43CAAA487C17C94 /* HSTableTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9B9C772EA885A4BAE019FC2016D3E3 /* HSTableTool.m */; };
+		8E1598642B9B45CBECA1C2F266640819 /* HSSqliteModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1B71E2CD1907E91BDF226E7DADF7F7 /* HSSqliteModelTool.m */; };
+		ACE0CB4E8271D6C806C6A4C28845AB4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BFE9D3685F5CF469B0E64FD4715125BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C53ECBAE0FCC888B784365519ADEF0DB /* Pods-FunkySqlite_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E4DCD3B1B543EFA5DD95421C16CF21 /* Pods-FunkySqlite_Example-dummy.m */; };
+		C7CEC4B1DFD1DD7690FD319D9174DFB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CE84E151E6C6D861AD3533A63C951063 /* HSModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E980802639EB2CFC66782791AA739A03 /* HSModelTool.m */; };
+		DA36E4012BA0885230DC4C56B7706EF8 /* FunkySqlite-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22C0E37D4B421DBC1722EC2CC1906B31 /* FunkySqlite-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAE32DF5473CF0AA230F29F804A1B517 /* HSTableTool.h in Headers */ = {isa = PBXBuildFile; fileRef = E83AE9BDBEFBCBFD420BF77D3F3D1440 /* HSTableTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFC3B17820BBE1E1330CD55FBD441301 /* Pods-FunkySqlite_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFF75FA2C8BE63F1100F3D0169CC714 /* Pods-FunkySqlite_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D06AC82BE9B74515C0CA4A21F9BF560B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DC51F9F573063734CE656C674D05E1A;
+			remoteInfo = FunkySqlite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044020D3575BE476757D818B8EAD2F58 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EDF6AE0680F9A8ACFDDBD4FAEF59659 /* Pods-FunkySqlite_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FunkySqlite_Tests-umbrella.h"; sourceTree = "<group>"; };
+		13638A71FD08EF1C10FA6DB62E5882CB /* HSModelProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HSModelProtocol.h; sourceTree = "<group>"; };
+		1648BCC8E9802640EB35CE936D73E8C9 /* Pods-FunkySqlite_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunkySqlite_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1F3D1FE6AFB4393478D77839DB2BC4F5 /* Pods-FunkySqlite_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunkySqlite_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		22C0E37D4B421DBC1722EC2CC1906B31 /* FunkySqlite-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunkySqlite-umbrella.h"; sourceTree = "<group>"; };
+		2ABE8A55FF09AF9288827CA2725781F6 /* Pods-FunkySqlite_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FunkySqlite_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2CFF75FA2C8BE63F1100F3D0169CC714 /* Pods-FunkySqlite_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FunkySqlite_Tests-dummy.m"; sourceTree = "<group>"; };
+		3797AAE11F271BC000B8FA09 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/usr/lib/libsqlite3.0.tbd; sourceTree = DEVELOPER_DIR; };
+		3811F511DE8826E103E65FAABF021A52 /* Pods-FunkySqlite_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunkySqlite_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3DC3A81AABD07BFF8E0C8E52332C8B82 /* FunkySqlite-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunkySqlite-prefix.pch"; sourceTree = "<group>"; };
+		46EDCDCC4A8F6E46D04371EED858907C /* HSSqliteModelTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HSSqliteModelTool.h; sourceTree = "<group>"; };
+		5BA38945FB28CA34D0CBE0E89A9FBF13 /* Pods-FunkySqlite_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FunkySqlite_Example-umbrella.h"; sourceTree = "<group>"; };
+		5BB115AB9F42999C8ABB954E5B40B663 /* Pods-FunkySqlite_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FunkySqlite_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5F191B51DB2B760683805F6338B83FEB /* Pods-FunkySqlite_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunkySqlite_Example-resources.sh"; sourceTree = "<group>"; };
+		5FA88C3643444DAF963F82D0656946BD /* FunkySqlite-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FunkySqlite-dummy.m"; sourceTree = "<group>"; };
+		632B18B4169BDECCEDCEDAFCDB5E1DE1 /* Pods-FunkySqlite_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunkySqlite_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		64F939CF379BACA4C6A21F21D6126381 /* Pods-FunkySqlite_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FunkySqlite_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		65EAFB18DAFB14EC78F4503340FE356D /* Pods-FunkySqlite_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunkySqlite_Tests-resources.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66E4DCD3B1B543EFA5DD95421C16CF21 /* Pods-FunkySqlite_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FunkySqlite_Example-dummy.m"; sourceTree = "<group>"; };
+		7D9668E974937C5A8A564CAFAF4C9BB7 /* FunkySqlite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FunkySqlite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E03A0B75FE59B805845EA0AD0C5E9F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8190E7AAAF1B8E99469715043EB7A2CE /* HSSqliteTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HSSqliteTool.m; sourceTree = "<group>"; };
+		830DBF1AD0B2E86CB1C4EAAEC58D775A /* Pods-FunkySqlite_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FunkySqlite_Tests.modulemap"; sourceTree = "<group>"; };
+		84AD704F3F7584770BF832B1957A73DC /* Pods-FunkySqlite_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunkySqlite_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A06D59E03A7B2A70117C8443D00C678 /* Pods-FunkySqlite_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FunkySqlite_Example.modulemap"; sourceTree = "<group>"; };
+		A1B9CE52C1E91F82F132DAAF6FB734FC /* Pods_FunkySqlite_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunkySqlite_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDCFB975170E50066A5D219FEBE41789 /* FunkySqlite.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FunkySqlite.modulemap; sourceTree = "<group>"; };
+		C8430D9DD08457C8BE9661F0607C94A8 /* Pods-FunkySqlite_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FunkySqlite_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C9CA313FC5B68944DC71BC4E8FA0BD43 /* HSSqliteTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HSSqliteTool.h; sourceTree = "<group>"; };
+		CAE3BF677FFAB548F6BE85340606C4DC /* FunkySqlite.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FunkySqlite.xcconfig; sourceTree = "<group>"; };
+		CE9B9C772EA885A4BAE019FC2016D3E3 /* HSTableTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HSTableTool.m; sourceTree = "<group>"; };
+		D74D8FF209FF699CD70105013D65CE41 /* HSModelTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HSModelTool.h; sourceTree = "<group>"; };
+		DF6D451DE2940998320E3308BD5CD495 /* Pods_FunkySqlite_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunkySqlite_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E83AE9BDBEFBCBFD420BF77D3F3D1440 /* HSTableTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HSTableTool.h; sourceTree = "<group>"; };
+		E980802639EB2CFC66782791AA739A03 /* HSModelTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HSModelTool.m; sourceTree = "<group>"; };
+		E99753FFADC6D326F54C9EB5C3FE0446 /* Pods-FunkySqlite_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunkySqlite_Example-frameworks.sh"; sourceTree = "<group>"; };
+		ED4C28467D7B5C71BB625E148760F261 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB1B71E2CD1907E91BDF226E7DADF7F7 /* HSSqliteModelTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HSSqliteModelTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0402844EDD7BD11CECA78AE51793A14D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE9D3685F5CF469B0E64FD4715125BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3214F33FDB6B31348FBEBE91C629DB31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7CEC4B1DFD1DD7690FD319D9174DFB9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BBCD7E6C47F2569214D1D86346DE0C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3797AAE21F271BC000B8FA09 /* libsqlite3.0.tbd in Frameworks */,
+				ACE0CB4E8271D6C806C6A4C28845AB4C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E42013252A87DF1696525A54F2FFCC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D9668E974937C5A8A564CAFAF4C9BB7 /* FunkySqlite.framework */,
+				DF6D451DE2940998320E3308BD5CD495 /* Pods_FunkySqlite_Example.framework */,
+				A1B9CE52C1E91F82F132DAAF6FB734FC /* Pods_FunkySqlite_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23ED5A4C9B6654BB26BBFA647068A8E8 /* Pods-FunkySqlite_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				044020D3575BE476757D818B8EAD2F58 /* Info.plist */,
+				830DBF1AD0B2E86CB1C4EAAEC58D775A /* Pods-FunkySqlite_Tests.modulemap */,
+				2ABE8A55FF09AF9288827CA2725781F6 /* Pods-FunkySqlite_Tests-acknowledgements.markdown */,
+				C8430D9DD08457C8BE9661F0607C94A8 /* Pods-FunkySqlite_Tests-acknowledgements.plist */,
+				2CFF75FA2C8BE63F1100F3D0169CC714 /* Pods-FunkySqlite_Tests-dummy.m */,
+				632B18B4169BDECCEDCEDAFCDB5E1DE1 /* Pods-FunkySqlite_Tests-frameworks.sh */,
+				65EAFB18DAFB14EC78F4503340FE356D /* Pods-FunkySqlite_Tests-resources.sh */,
+				0EDF6AE0680F9A8ACFDDBD4FAEF59659 /* Pods-FunkySqlite_Tests-umbrella.h */,
+				84AD704F3F7584770BF832B1957A73DC /* Pods-FunkySqlite_Tests.debug.xcconfig */,
+				1F3D1FE6AFB4393478D77839DB2BC4F5 /* Pods-FunkySqlite_Tests.release.xcconfig */,
+			);
+			name = "Pods-FunkySqlite_Tests";
+			path = "Target Support Files/Pods-FunkySqlite_Tests";
+			sourceTree = "<group>";
+		};
+		3C13C304416640A7F503028271F450ED /* FunkySqlite */ = {
+			isa = PBXGroup;
+			children = (
+				F1B75D80D793044F0C76D780DF859EFB /* FunkySqlite */,
+				6E31C2AA4F1B44F29204B1F784EEF256 /* Support Files */,
+			);
+			name = FunkySqlite;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6E31C2AA4F1B44F29204B1F784EEF256 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDCFB975170E50066A5D219FEBE41789 /* FunkySqlite.modulemap */,
+				CAE3BF677FFAB548F6BE85340606C4DC /* FunkySqlite.xcconfig */,
+				5FA88C3643444DAF963F82D0656946BD /* FunkySqlite-dummy.m */,
+				3DC3A81AABD07BFF8E0C8E52332C8B82 /* FunkySqlite-prefix.pch */,
+				22C0E37D4B421DBC1722EC2CC1906B31 /* FunkySqlite-umbrella.h */,
+				ED4C28467D7B5C71BB625E148760F261 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FunkySqlite";
+			sourceTree = "<group>";
+		};
+		7C17BEF114B1E0B5E25600E6F8BB00E1 /* Pods-FunkySqlite_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7E03A0B75FE59B805845EA0AD0C5E9F8 /* Info.plist */,
+				9A06D59E03A7B2A70117C8443D00C678 /* Pods-FunkySqlite_Example.modulemap */,
+				5BB115AB9F42999C8ABB954E5B40B663 /* Pods-FunkySqlite_Example-acknowledgements.markdown */,
+				64F939CF379BACA4C6A21F21D6126381 /* Pods-FunkySqlite_Example-acknowledgements.plist */,
+				66E4DCD3B1B543EFA5DD95421C16CF21 /* Pods-FunkySqlite_Example-dummy.m */,
+				E99753FFADC6D326F54C9EB5C3FE0446 /* Pods-FunkySqlite_Example-frameworks.sh */,
+				5F191B51DB2B760683805F6338B83FEB /* Pods-FunkySqlite_Example-resources.sh */,
+				5BA38945FB28CA34D0CBE0E89A9FBF13 /* Pods-FunkySqlite_Example-umbrella.h */,
+				1648BCC8E9802640EB35CE936D73E8C9 /* Pods-FunkySqlite_Example.debug.xcconfig */,
+				3811F511DE8826E103E65FAABF021A52 /* Pods-FunkySqlite_Example.release.xcconfig */,
+			);
+			name = "Pods-FunkySqlite_Example";
+			path = "Target Support Files/Pods-FunkySqlite_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B9863060E5DE191D27A44894B683820B /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1E42013252A87DF1696525A54F2FFCC4 /* Products */,
+				C6E3560DE8CD06C021A0AAF0D0670655 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B9863060E5DE191D27A44894B683820B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C13C304416640A7F503028271F450ED /* FunkySqlite */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3797AAE11F271BC000B8FA09 /* libsqlite3.0.tbd */,
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6E3560DE8CD06C021A0AAF0D0670655 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C17BEF114B1E0B5E25600E6F8BB00E1 /* Pods-FunkySqlite_Example */,
+				23ED5A4C9B6654BB26BBFA647068A8E8 /* Pods-FunkySqlite_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DF796C85B7BA25E9435548914429D978 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				13638A71FD08EF1C10FA6DB62E5882CB /* HSModelProtocol.h */,
+				D74D8FF209FF699CD70105013D65CE41 /* HSModelTool.h */,
+				E980802639EB2CFC66782791AA739A03 /* HSModelTool.m */,
+				46EDCDCC4A8F6E46D04371EED858907C /* HSSqliteModelTool.h */,
+				FB1B71E2CD1907E91BDF226E7DADF7F7 /* HSSqliteModelTool.m */,
+				C9CA313FC5B68944DC71BC4E8FA0BD43 /* HSSqliteTool.h */,
+				8190E7AAAF1B8E99469715043EB7A2CE /* HSSqliteTool.m */,
+				E83AE9BDBEFBCBFD420BF77D3F3D1440 /* HSTableTool.h */,
+				CE9B9C772EA885A4BAE019FC2016D3E3 /* HSTableTool.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F1B75D80D793044F0C76D780DF859EFB /* FunkySqlite */ = {
+			isa = PBXGroup;
+			children = (
+				DF796C85B7BA25E9435548914429D978 /* Classes */,
+			);
+			path = FunkySqlite;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		53A57EE6BAA462032C83C492576357EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DEBD72684BCFED2B6BBD3A066197719 /* Pods-FunkySqlite_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D5314C39D0539B5CE707769E545490 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA36E4012BA0885230DC4C56B7706EF8 /* FunkySqlite-umbrella.h in Headers */,
+				157543693A916C420D1CBE7FCEC403D4 /* HSModelProtocol.h in Headers */,
+				4CB610D58B2BBA693A49FCAEE47E94B1 /* HSModelTool.h in Headers */,
+				7EF1E26BF67A2D48D1E1ABE4ABF3DB38 /* HSSqliteModelTool.h in Headers */,
+				72916F1D3B38D4AF3E6645B4A963A229 /* HSSqliteTool.h in Headers */,
+				DAE32DF5473CF0AA230F29F804A1B517 /* HSTableTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68D29F235574E3C18B8104183CBD9F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				574DA6F759D2BCC61450DA9715FB3CD8 /* Pods-FunkySqlite_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		41F587852EC28B8068B9410EA310E3E3 /* Pods-FunkySqlite_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1F4384A7C332C825E725D513CB9D290 /* Build configuration list for PBXNativeTarget "Pods-FunkySqlite_Tests" */;
+			buildPhases = (
+				AEB5672C796FB86E022978CA59403008 /* Sources */,
+				0402844EDD7BD11CECA78AE51793A14D /* Frameworks */,
+				53A57EE6BAA462032C83C492576357EE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FunkySqlite_Tests";
+			productName = "Pods-FunkySqlite_Tests";
+			productReference = A1B9CE52C1E91F82F132DAAF6FB734FC /* Pods_FunkySqlite_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		50A55BF1450CE3C7D753DFE1263D0C7D /* Pods-FunkySqlite_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F4DAE2FC6DD0CF645979CFAA61737A /* Build configuration list for PBXNativeTarget "Pods-FunkySqlite_Example" */;
+			buildPhases = (
+				D9312E75F89C707229D7D8A113933A40 /* Sources */,
+				3214F33FDB6B31348FBEBE91C629DB31 /* Frameworks */,
+				F68D29F235574E3C18B8104183CBD9F8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C16A3C06C3F73E014042910F875D7D1C /* PBXTargetDependency */,
+			);
+			name = "Pods-FunkySqlite_Example";
+			productName = "Pods-FunkySqlite_Example";
+			productReference = DF6D451DE2940998320E3308BD5CD495 /* Pods_FunkySqlite_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6DC51F9F573063734CE656C674D05E1A /* FunkySqlite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F467A2D16747C76E57A2ADA54AFA36C /* Build configuration list for PBXNativeTarget "FunkySqlite" */;
+			buildPhases = (
+				7F5067E8EED4F008D26075353CC1CF33 /* Sources */,
+				5BBCD7E6C47F2569214D1D86346DE0C7 /* Frameworks */,
+				B6D5314C39D0539B5CE707769E545490 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunkySqlite;
+			productName = FunkySqlite;
+			productReference = 7D9668E974937C5A8A564CAFAF4C9BB7 /* FunkySqlite.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1E42013252A87DF1696525A54F2FFCC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DC51F9F573063734CE656C674D05E1A /* FunkySqlite */,
+				50A55BF1450CE3C7D753DFE1263D0C7D /* Pods-FunkySqlite_Example */,
+				41F587852EC28B8068B9410EA310E3E3 /* Pods-FunkySqlite_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F5067E8EED4F008D26075353CC1CF33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C30F301BDD2C7A9FCDEC9B1B957A0D /* FunkySqlite-dummy.m in Sources */,
+				CE84E151E6C6D861AD3533A63C951063 /* HSModelTool.m in Sources */,
+				8E1598642B9B45CBECA1C2F266640819 /* HSSqliteModelTool.m in Sources */,
+				3D9F03E576F1CC63E669FA76D88C166D /* HSSqliteTool.m in Sources */,
+				82C29D20F9EDDE65F43CAAA487C17C94 /* HSTableTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEB5672C796FB86E022978CA59403008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC3B17820BBE1E1330CD55FBD441301 /* Pods-FunkySqlite_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9312E75F89C707229D7D8A113933A40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53ECBAE0FCC888B784365519ADEF0DB /* Pods-FunkySqlite_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C16A3C06C3F73E014042910F875D7D1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FunkySqlite;
+			target = 6DC51F9F573063734CE656C674D05E1A /* FunkySqlite */;
+			targetProxy = D06AC82BE9B74515C0CA4A21F9BF560B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		279FED5D20CBCAE6658CD1355C29A87C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1648BCC8E9802640EB35CE936D73E8C9 /* Pods-FunkySqlite_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FunkySqlite_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FunkySqlite_Example/Pods-FunkySqlite_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FunkySqlite_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		454C029E7E46B96D55C3F671F1D98A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84AD704F3F7584770BF832B1957A73DC /* Pods-FunkySqlite_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FunkySqlite_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FunkySqlite_Tests/Pods-FunkySqlite_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FunkySqlite_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5689A210B9EA68BB192687FA1251E9BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAE3BF677FFAB548F6BE85340606C4DC /* FunkySqlite.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FunkySqlite/FunkySqlite-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FunkySqlite/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FunkySqlite/FunkySqlite.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FunkySqlite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		700ABA92228E9E6F13C52438E549CAE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAE3BF677FFAB548F6BE85340606C4DC /* FunkySqlite.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FunkySqlite/FunkySqlite-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FunkySqlite/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FunkySqlite/FunkySqlite.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FunkySqlite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FAE93727A25A977A9BBB0203E48CF22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F3D1FE6AFB4393478D77839DB2BC4F5 /* Pods-FunkySqlite_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FunkySqlite_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FunkySqlite_Tests/Pods-FunkySqlite_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FunkySqlite_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B3CDF8EC2D01362F304D9C24DD3C25D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3811F511DE8826E103E65FAABF021A52 /* Pods-FunkySqlite_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FunkySqlite_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FunkySqlite_Example/Pods-FunkySqlite_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FunkySqlite_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F467A2D16747C76E57A2ADA54AFA36C /* Build configuration list for PBXNativeTarget "FunkySqlite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5689A210B9EA68BB192687FA1251E9BB /* Debug */,
+				700ABA92228E9E6F13C52438E549CAE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F4DAE2FC6DD0CF645979CFAA61737A /* Build configuration list for PBXNativeTarget "Pods-FunkySqlite_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279FED5D20CBCAE6658CD1355C29A87C /* Debug */,
+				B3CDF8EC2D01362F304D9C24DD3C25D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1F4384A7C332C825E725D513CB9D290 /* Build configuration list for PBXNativeTarget "Pods-FunkySqlite_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				454C029E7E46B96D55C3F671F1D98A3A /* Debug */,
+				9FAE93727A25A977A9BBB0203E48CF22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

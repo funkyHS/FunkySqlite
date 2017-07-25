@@ -1,0 +1,22 @@
+{
+  "name": "FunkySqlite",
+  "version": "0.1.0",
+  "summary": "A short description of FunkySqlite.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/funkyHS/FunkySqlite",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "funkyHS": "hs1024942667@163.com"
+  },
+  "source": {
+    "git": "https://github.com/funkyHS/FunkySqlite.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FunkySqlite/Classes/**/*"
+}

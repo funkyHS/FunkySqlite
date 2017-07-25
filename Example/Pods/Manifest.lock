@@ -1,0 +1,16 @@
+PODS:
+  - FunkySqlite (0.1.0)
+
+DEPENDENCIES:
+  - FunkySqlite (from `../`)
+
+EXTERNAL SOURCES:
+  FunkySqlite:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FunkySqlite: 2c897368a139be6714a600316222d66b1f579ab0
+
+PODFILE CHECKSUM: 26db0a134032e56aa8cf932c1b907db2e4b90d53
+
+COCOAPODS: 1.2.1
