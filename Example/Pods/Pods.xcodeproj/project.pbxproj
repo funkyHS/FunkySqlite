@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		157543693A916C420D1CBE7FCEC403D4 /* HSModelProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 13638A71FD08EF1C10FA6DB62E5882CB /* HSModelProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3797AAE21F271BC000B8FA09 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3797AAE11F271BC000B8FA09 /* libsqlite3.0.tbd */; };
 		3D9F03E576F1CC63E669FA76D88C166D /* HSSqliteTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8190E7AAAF1B8E99469715043EB7A2CE /* HSSqliteTool.m */; };
 		45C30F301BDD2C7A9FCDEC9B1B957A0D /* FunkySqlite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA88C3643444DAF963F82D0656946BD /* FunkySqlite-dummy.m */; };
 		4CB610D58B2BBA693A49FCAEE47E94B1 /* HSModelTool.h in Headers */ = {isa = PBXBuildFile; fileRef = D74D8FF209FF699CD70105013D65CE41 /* HSModelTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -47,7 +46,6 @@
 		22C0E37D4B421DBC1722EC2CC1906B31 /* FunkySqlite-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunkySqlite-umbrella.h"; sourceTree = "<group>"; };
 		2ABE8A55FF09AF9288827CA2725781F6 /* Pods-FunkySqlite_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FunkySqlite_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2CFF75FA2C8BE63F1100F3D0169CC714 /* Pods-FunkySqlite_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FunkySqlite_Tests-dummy.m"; sourceTree = "<group>"; };
-		3797AAE11F271BC000B8FA09 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/usr/lib/libsqlite3.0.tbd; sourceTree = DEVELOPER_DIR; };
 		3811F511DE8826E103E65FAABF021A52 /* Pods-FunkySqlite_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunkySqlite_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3DC3A81AABD07BFF8E0C8E52332C8B82 /* FunkySqlite-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunkySqlite-prefix.pch"; sourceTree = "<group>"; };
 		46EDCDCC4A8F6E46D04371EED858907C /* HSSqliteModelTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HSSqliteModelTool.h; sourceTree = "<group>"; };
@@ -60,21 +58,21 @@
 		65EAFB18DAFB14EC78F4503340FE356D /* Pods-FunkySqlite_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunkySqlite_Tests-resources.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		66E4DCD3B1B543EFA5DD95421C16CF21 /* Pods-FunkySqlite_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FunkySqlite_Example-dummy.m"; sourceTree = "<group>"; };
-		7D9668E974937C5A8A564CAFAF4C9BB7 /* FunkySqlite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FunkySqlite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D9668E974937C5A8A564CAFAF4C9BB7 /* FunkySqlite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FunkySqlite.framework; path = FunkySqlite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E03A0B75FE59B805845EA0AD0C5E9F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8190E7AAAF1B8E99469715043EB7A2CE /* HSSqliteTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HSSqliteTool.m; sourceTree = "<group>"; };
-		830DBF1AD0B2E86CB1C4EAAEC58D775A /* Pods-FunkySqlite_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FunkySqlite_Tests.modulemap"; sourceTree = "<group>"; };
+		830DBF1AD0B2E86CB1C4EAAEC58D775A /* Pods-FunkySqlite_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FunkySqlite_Tests.modulemap"; sourceTree = "<group>"; };
 		84AD704F3F7584770BF832B1957A73DC /* Pods-FunkySqlite_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunkySqlite_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A06D59E03A7B2A70117C8443D00C678 /* Pods-FunkySqlite_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FunkySqlite_Example.modulemap"; sourceTree = "<group>"; };
-		A1B9CE52C1E91F82F132DAAF6FB734FC /* Pods_FunkySqlite_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunkySqlite_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDCFB975170E50066A5D219FEBE41789 /* FunkySqlite.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FunkySqlite.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A06D59E03A7B2A70117C8443D00C678 /* Pods-FunkySqlite_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FunkySqlite_Example.modulemap"; sourceTree = "<group>"; };
+		A1B9CE52C1E91F82F132DAAF6FB734FC /* Pods_FunkySqlite_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FunkySqlite_Tests.framework; path = "Pods-FunkySqlite_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDCFB975170E50066A5D219FEBE41789 /* FunkySqlite.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FunkySqlite.modulemap; sourceTree = "<group>"; };
 		C8430D9DD08457C8BE9661F0607C94A8 /* Pods-FunkySqlite_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FunkySqlite_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C9CA313FC5B68944DC71BC4E8FA0BD43 /* HSSqliteTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HSSqliteTool.h; sourceTree = "<group>"; };
 		CAE3BF677FFAB548F6BE85340606C4DC /* FunkySqlite.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FunkySqlite.xcconfig; sourceTree = "<group>"; };
 		CE9B9C772EA885A4BAE019FC2016D3E3 /* HSTableTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HSTableTool.m; sourceTree = "<group>"; };
 		D74D8FF209FF699CD70105013D65CE41 /* HSModelTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HSModelTool.h; sourceTree = "<group>"; };
-		DF6D451DE2940998320E3308BD5CD495 /* Pods_FunkySqlite_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunkySqlite_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6D451DE2940998320E3308BD5CD495 /* Pods_FunkySqlite_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FunkySqlite_Example.framework; path = "Pods-FunkySqlite_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E83AE9BDBEFBCBFD420BF77D3F3D1440 /* HSTableTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HSTableTool.h; sourceTree = "<group>"; };
 		E980802639EB2CFC66782791AA739A03 /* HSModelTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HSModelTool.m; sourceTree = "<group>"; };
 		E99753FFADC6D326F54C9EB5C3FE0446 /* Pods-FunkySqlite_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunkySqlite_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -103,7 +101,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3797AAE21F271BC000B8FA09 /* libsqlite3.0.tbd in Frameworks */,
 				ACE0CB4E8271D6C806C6A4C28845AB4C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,7 +200,6 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3797AAE11F271BC000B8FA09 /* libsqlite3.0.tbd */,
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
@@ -239,6 +235,7 @@
 				E83AE9BDBEFBCBFD420BF77D3F3D1440 /* HSTableTool.h */,
 				CE9B9C772EA885A4BAE019FC2016D3E3 /* HSTableTool.m */,
 			);
+			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -247,6 +244,7 @@
 			children = (
 				DF796C85B7BA25E9435548914429D978 /* Classes */,
 			);
+			name = FunkySqlite;
 			path = FunkySqlite;
 			sourceTree = "<group>";
 		};

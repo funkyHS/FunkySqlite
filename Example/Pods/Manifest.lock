@@ -1,5 +1,5 @@
 PODS:
-  - FunkySqlite (0.1.0)
+  - FunkySqlite (0.1.1)
 
 DEPENDENCIES:
   - FunkySqlite (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  FunkySqlite: 2c897368a139be6714a600316222d66b1f579ab0
+  FunkySqlite: 0d17ec5192dc097fd2ee194170e6def8023221a2
 
 PODFILE CHECKSUM: 26db0a134032e56aa8cf932c1b907db2e4b90d53
 

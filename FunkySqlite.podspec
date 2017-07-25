@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FunkySqlite'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'FunkySqlite'
 
   s.description      = <<-DESC
@@ -18,5 +18,7 @@ TODO: FunkySqlite 是对SQLite封装，提供了面向对象的接口使用
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'FunkySqlite/Classes/**/*'
+
+  s.library = "sqlite3"
   
 end

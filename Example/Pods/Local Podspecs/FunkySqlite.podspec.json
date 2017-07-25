@@ -1,8 +1,8 @@
 {
   "name": "FunkySqlite",
-  "version": "0.1.0",
-  "summary": "A short description of FunkySqlite.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.1",
+  "summary": "FunkySqlite",
+  "description": "TODO: FunkySqlite 是对SQLite封装，提供了面向对象的接口使用",
   "homepage": "https://github.com/funkyHS/FunkySqlite",
   "license": {
     "type": "MIT",
@@ -13,10 +13,11 @@
   },
   "source": {
     "git": "https://github.com/funkyHS/FunkySqlite.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "FunkySqlite/Classes/**/*"
+  "source_files": "FunkySqlite/Classes/**/*",
+  "libraries": "sqlite3"
 }
